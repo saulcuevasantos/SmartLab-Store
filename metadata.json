@@ -1,0 +1,6 @@
+{
+  "name": "SmartLab Store",
+  "description": "Plataforma de comercio electrónico e innovación tecnológica para equipamiento de laboratorio y soluciones inteligentes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,83 @@
+/**
+ * SmartLab Store — Utilidades CSS Transversales
+ * Reglas para multilínea, truncamiento seguro, contenedor centrado y barras de desplazamiento.
+ */
+
+.smartlab-container {
+  width: 100%;
+  max-width: var(--container-max-width, 1320px);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .smartlab-container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+/* Área táctil mínima accesible */
+.touch-target {
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Truncamiento multilínea estricto a 2 líneas */
+.line-clamp-2-strict {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  height: 2.8em;
+  line-height: 1.4;
+}
+
+/* Rompimiento seguro de identificadores, correos y URLs largas */
+.break-safe {
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
+
+/* Scroll horizontal controlado para tablas densas */
+.table-scroll-container {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table-scroll-container::-webkit-scrollbar {
+  height: 6px;
+}
+
+.table-scroll-container::-webkit-scrollbar-track {
+  background: #F1F5F9;
+  border-radius: 3px;
+}
+
+.table-scroll-container::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+
+.table-scroll-container::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Ocultar barra de scroll nativa manteniendo desplazamiento táctil suave */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+

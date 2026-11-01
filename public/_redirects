@@ -1,0 +1,6 @@
+# ==============================================================================
+# SmartLab Store — Reglas de Enrutamiento SPA para Cloudflare Pages
+# Referencia: docs/03_ARQUITECTURA.md y docs/08_PLAN_SPRINTS.md (Sprint 11)
+# ==============================================================================
+
+/*    /index.html   200

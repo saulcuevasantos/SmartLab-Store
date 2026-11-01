@@ -1,0 +1,53 @@
+/**
+ * SmartLab Store — Variables CSS del Sistema de Diseño (Techoze-04)
+ * docs/06_DISENO_VISUAL_UX_UI.md
+ */
+
+:root {
+  /* Paleta Oficial */
+  --color-primary: #0A68FF;
+  --color-primary-hover: #0854D1;
+  --color-secondary: #FF6B00;
+  --color-secondary-hover: #E05E00;
+  --color-dark-header: #0F172A;
+  --color-topbar-bg: #F8FAFC;
+  --color-badge-free: #10B981;
+  --color-badge-pro: #6366F1;
+  --color-badge-custom: #F59E0B;
+  --color-whatsapp: #25D366;
+  --color-whatsapp-hover: #1EBE5D;
+  --color-bg-body: #F4F6F8;
+  --color-surface-white: #FFFFFF;
+  --color-border: #E2E8F0;
+  --color-border-dark: #CBD5E1;
+  --color-text-main: #1E293B;
+  --color-text-muted: #64748B;
+  --color-price: #0A68FF;
+
+  /* Tipografía Poppins */
+  --font-family-base: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Dimensiones y Breakpoints de Referencia */
+  --container-max-width: 1320px;
+  --header-desktop-height: 80px;
+  --header-mobile-height: 60px;
+  --bottom-bar-height: 60px;
+  --sidebar-admin-width: 260px;
+  --sidebar-admin-collapsed: 72px;
+
+  /* Sombras y Elevaciones */
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.03);
+  --shadow-hover: 0 10px 25px -5px rgba(10, 104, 255, 0.12), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+  --shadow-dropdown: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+  --shadow-bottom-bar: 0 -2px 10px rgba(0, 0, 0, 0.06);
+
+  /* Radios de Borde */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+
+  /* Transiciones */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
