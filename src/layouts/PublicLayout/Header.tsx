@@ -231,11 +231,11 @@ export const Header: React.FC<HeaderProps> = ({
                   {isAdmin && (
                     <Link
                       to="/admin"
-                      className="touch-target px-2.5 py-1.5 rounded-lg bg-[#0F172A] hover:bg-slate-800 text-white text-xs font-semibold flex items-center gap-1 transition"
+                      className="touch-target px-2.5 py-1.5 rounded-lg bg-[#0F172A] hover:bg-slate-800 text-emerald-400 hover:text-emerald-300 text-xs font-semibold flex items-center gap-1 transition"
                       title="Panel Administrativo"
                     >
-                      <Shield className="w-3.5 h-3.5" />
-                      <span className="hidden md:inline">Admin</span>
+                      <Shield className="w-3.5 h-3.5 text-emerald-400" />
+                      <span className="hidden md:inline text-emerald-400">Admin</span>
                     </Link>
                   )}
                 </div>

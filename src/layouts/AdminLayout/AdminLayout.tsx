@@ -58,7 +58,7 @@ export const AdminLayout: React.FC = () => {
                 type="search"
                 value={adminQuickSearch}
                 onChange={(e) => setAdminQuickSearch(e.target.value)}
-                placeholder="Buscar pedido (SL-2026-...), teléfono WhatsApp o N° operación..."
+                placeholder="Buscar pedido"
                 className="w-full h-10 pl-9 pr-3.5 rounded-lg border border-slate-200 bg-slate-50 focus:bg-white text-xs sm:text-sm text-slate-800 focus:outline-none focus:border-[#0A68FF]"
               />
             </form>

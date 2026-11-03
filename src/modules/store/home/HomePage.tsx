@@ -1000,11 +1000,6 @@ export const HomePage: React.FC = () => {
         : 'MODALIDAD PERSONALIZADO';
     const badgeVariant =
       (section.badge_variant as HomepageBadgeVariant) || 'PERSONALIZADO';
-    const secondaryBadge =
-      typeof cfg.secondary_badge_text === 'string' &&
-      cfg.secondary_badge_text.trim()
-        ? cfg.secondary_badge_text.trim()
-        : 'Cotización directa en Soles (PEN)';
     const title =
       section.title?.trim() ||
       '¿Buscas un desarrollo a medida o adaptar un producto del catálogo?';
@@ -1038,11 +1033,6 @@ export const HomePage: React.FC = () => {
         <div className="space-y-2 max-w-2xl">
           <div className="flex flex-wrap items-center gap-2">
             {badgeText && <Badge variant={badgeVariant}>{badgeText}</Badge>}
-            {secondaryBadge && (
-              <span className="text-xs font-semibold text-amber-800">
-                {secondaryBadge}
-              </span>
-            )}
           </div>
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900">
             {title}

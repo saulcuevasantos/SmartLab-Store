@@ -54,9 +54,6 @@ export const DashboardPage: React.FC = () => {
       {/* Encabezado */}
       <div className="flex flex-wrap items-center justify-between gap-4">
         <div>
-          <span className="text-[11px] font-bold uppercase tracking-wider text-[#0A68FF] block">
-            Panel de Control Administrativo • Moneda PEN (S/)
-          </span>
           <h1 className="text-xl sm:text-2xl font-bold text-slate-900">
             Dashboard Comercial y Operativo
           </h1>
